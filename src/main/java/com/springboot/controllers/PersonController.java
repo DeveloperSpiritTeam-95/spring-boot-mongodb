@@ -15,6 +15,7 @@ import java.util.List;
 @RequestMapping("/api")
 public class PersonController {
 
+    // added
     private final static Logger LOGGER = LoggerFactory.getLogger(PersonController.class);
     private final PersonService personService;
 
