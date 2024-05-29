@@ -2,6 +2,7 @@ package com.springboot.services;
 
 import com.springboot.dtos.PersonDTO;
 import com.springboot.repositories.PersonRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
